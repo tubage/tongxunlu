@@ -18,6 +18,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [[EZRequest instance]postDataWithPath:@"/txlmain-manage/mobile/user/mobileLogin.txl" params:@{@"user.account": @"test",@"user.password":@"test"} success:^(NSDictionary *result) {
+        NSLog(@"success %@",result);
+    } failure:^(NSError *error) {
+        NSLog(@"@error %@",error);
+    }];
 }
 
 - (void)didReceiveMemoryWarning

@@ -28,6 +28,7 @@
 		837DC6D51767170F00C7B0BE /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC6CB1767170F00C7B0BE /* AFXMLRequestOperation.m */; };
 		837DC6D61767170F00C7B0BE /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC6CD1767170F00C7B0BE /* UIImageView+AFNetworking.m */; };
 		837DC6DA1767172800C7B0BE /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC6D91767172800C7B0BE /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		837DC6DE176719B400C7B0BE /* EZRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC6DD176719B400C7B0BE /* EZRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,10 @@
 		837DC6CD1767170F00C7B0BE /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		837DC6D81767172800C7B0BE /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		837DC6D91767172800C7B0BE /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		837DC6DC176719B400C7B0BE /* EZRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZRequest.h; sourceTree = "<group>"; };
+		837DC6DD176719B400C7B0BE /* EZRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZRequest.m; sourceTree = "<group>"; };
+		837DC6DF17671C2A00C7B0BE /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		837DC6E017671C2A00C7B0BE /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +119,7 @@
 		837DC69C1767161900C7B0BE /* Tongxunlu */ = {
 			isa = PBXGroup;
 			children = (
+				837DC6DB1767186E00C7B0BE /* Common */,
 				837DC6B91767170F00C7B0BE /* library */,
 				837DC6A51767161900C7B0BE /* TXLAppDelegate.h */,
 				837DC6A61767161900C7B0BE /* TXLAppDelegate.m */,
@@ -181,6 +187,17 @@
 				837DC6D91767172800C7B0BE /* JSONKit.m */,
 			);
 			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		837DC6DB1767186E00C7B0BE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				837DC6DF17671C2A00C7B0BE /* TPKeyboardAvoidingScrollView.h */,
+				837DC6E017671C2A00C7B0BE /* TPKeyboardAvoidingScrollView.m */,
+				837DC6DC176719B400C7B0BE /* EZRequest.h */,
+				837DC6DD176719B400C7B0BE /* EZRequest.m */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +280,7 @@
 				837DC6D51767170F00C7B0BE /* AFXMLRequestOperation.m in Sources */,
 				837DC6D61767170F00C7B0BE /* UIImageView+AFNetworking.m in Sources */,
 				837DC6DA1767172800C7B0BE /* JSONKit.m in Sources */,
+				837DC6DE176719B400C7B0BE /* EZRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +368,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tongxunlu/Tongxunlu-Prefix.pch";
 				INFOPLIST_FILE = "Tongxunlu/Tongxunlu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -361,6 +380,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tongxunlu/Tongxunlu-Prefix.pch";
 				INFOPLIST_FILE = "Tongxunlu/Tongxunlu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
