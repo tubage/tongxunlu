@@ -31,6 +31,11 @@
 		837DC6DE176719B400C7B0BE /* EZRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC6DD176719B400C7B0BE /* EZRequest.m */; };
 		837DC6E717671D9A00C7B0BE /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC6E317671D9A00C7B0BE /* MBProgressHUD.m */; };
 		837DC6E817671D9A00C7B0BE /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC6E617671D9A00C7B0BE /* TPKeyboardAvoidingScrollView.m */; };
+		837DC6EF17671FA700C7B0BE /* LoginEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC6EE17671FA700C7B0BE /* LoginEntity.m */; };
+		837DC6F217671FED00C7B0BE /* AccountEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC6F117671FED00C7B0BE /* AccountEntity.m */; };
+		837DC6F517672B9800C7B0BE /* EZEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC6F417672B9800C7B0BE /* EZEntity.m */; };
+		837DC6F717672EAA00C7B0BE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837DC6F617672EAA00C7B0BE /* MobileCoreServices.framework */; };
+		837DC6F917672EB400C7B0BE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837DC6F817672EB400C7B0BE /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +82,14 @@
 		837DC6E317671D9A00C7B0BE /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		837DC6E517671D9A00C7B0BE /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
 		837DC6E617671D9A00C7B0BE /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		837DC6ED17671FA700C7B0BE /* LoginEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginEntity.h; sourceTree = "<group>"; };
+		837DC6EE17671FA700C7B0BE /* LoginEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginEntity.m; sourceTree = "<group>"; };
+		837DC6F017671FED00C7B0BE /* AccountEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountEntity.h; sourceTree = "<group>"; };
+		837DC6F117671FED00C7B0BE /* AccountEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountEntity.m; sourceTree = "<group>"; };
+		837DC6F317672B9800C7B0BE /* EZEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZEntity.h; sourceTree = "<group>"; };
+		837DC6F417672B9800C7B0BE /* EZEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZEntity.m; sourceTree = "<group>"; };
+		837DC6F617672EAA00C7B0BE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		837DC6F817672EB400C7B0BE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +97,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837DC6F917672EB400C7B0BE /* SystemConfiguration.framework in Frameworks */,
+				837DC6F717672EAA00C7B0BE /* MobileCoreServices.framework in Frameworks */,
 				837DC6971767161900C7B0BE /* UIKit.framework in Frameworks */,
 				837DC6991767161900C7B0BE /* Foundation.framework in Frameworks */,
 				837DC69B1767161900C7B0BE /* CoreGraphics.framework in Frameworks */,
@@ -113,6 +128,8 @@
 		837DC6951767161900C7B0BE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				837DC6F817672EB400C7B0BE /* SystemConfiguration.framework */,
+				837DC6F617672EAA00C7B0BE /* MobileCoreServices.framework */,
 				837DC6961767161900C7B0BE /* UIKit.framework */,
 				837DC6981767161900C7B0BE /* Foundation.framework */,
 				837DC69A1767161900C7B0BE /* CoreGraphics.framework */,
@@ -198,6 +215,7 @@
 		837DC6DB1767186E00C7B0BE /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				837DC6E917671F7600C7B0BE /* Model */,
 				837DC6DC176719B400C7B0BE /* EZRequest.h */,
 				837DC6DD176719B400C7B0BE /* EZRequest.m */,
 			);
@@ -220,6 +238,19 @@
 				837DC6E617671D9A00C7B0BE /* TPKeyboardAvoidingScrollView.m */,
 			);
 			path = TPKeyboard;
+			sourceTree = "<group>";
+		};
+		837DC6E917671F7600C7B0BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				837DC6ED17671FA700C7B0BE /* LoginEntity.h */,
+				837DC6EE17671FA700C7B0BE /* LoginEntity.m */,
+				837DC6F017671FED00C7B0BE /* AccountEntity.h */,
+				837DC6F117671FED00C7B0BE /* AccountEntity.m */,
+				837DC6F317672B9800C7B0BE /* EZEntity.h */,
+				837DC6F417672B9800C7B0BE /* EZEntity.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +336,9 @@
 				837DC6DE176719B400C7B0BE /* EZRequest.m in Sources */,
 				837DC6E717671D9A00C7B0BE /* MBProgressHUD.m in Sources */,
 				837DC6E817671D9A00C7B0BE /* TPKeyboardAvoidingScrollView.m in Sources */,
+				837DC6EF17671FA700C7B0BE /* LoginEntity.m in Sources */,
+				837DC6F217671FED00C7B0BE /* AccountEntity.m in Sources */,
+				837DC6F517672B9800C7B0BE /* EZEntity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

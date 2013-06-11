@@ -7,6 +7,7 @@
 //
 
 #import "TXLViewController.h"
+#import "LoginEntity.h"
 
 @interface TXLViewController ()
 
@@ -19,9 +20,12 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [[EZRequest instance]postDataWithPath:@"/txlmain-manage/mobile/user/mobileLogin.txl" params:@{@"user.account": @"test",@"user.password":@"test"} success:^(NSDictionary *result) {
-        NSLog(@"success %@",result);
+
+        LoginEntity* login = [[LoginEntity alloc]initWithDictionary:result isParserArray:YES];
+        
+        DBG(@"success %@",login);
     } failure:^(NSError *error) {
-        NSLog(@"@error %@",error);
+        DBG(@"@error %@",error);
     }];
 }
 
