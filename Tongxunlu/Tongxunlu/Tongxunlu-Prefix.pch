@@ -8,6 +8,16 @@
 #warning "This project uses features only available in iOS SDK 4.0 and later."
 #endif
 
+#define RGBA(r,g,b,a)   [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:a]
+#define RGB(r,g,b)      RGBA(r,g,b,1)
+
+
+#define FONT(s)          [UIFont systemFontOfSize:s]
+#define SFONT(s)         [UIFont fontWithName:@"RTWSYueGoG0v1-Light" size:s]
+#define BOLD_FONT(s)     [UIFont boldSystemFontOfSize:s]
+
+#define SYSTEM_VERSION   [[[UIDevice currentDevice] systemVersion] floatValue]
+
 #ifdef DEBUG
 #define DBG(format, ...) NSLog(format, ## __VA_ARGS__)
 #else
@@ -17,6 +27,13 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import "NSString+EZ.h"
+    #import "UIView+EZ.h"
+    #import "UIButton+EZ.h"
+
     #import "JSONKit.h"
+    #import "Constant.h"
     #import "EZRequest.h"
+    #import "EZRootViewController.h"
+
 #endif

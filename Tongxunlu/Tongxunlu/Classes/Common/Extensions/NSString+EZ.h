@@ -1,13 +1,17 @@
 //
-//  TXLViewController.h
+//  NSString+EZ.h
 //  Tongxunlu
 //
 //  Created by kongkong on 13-6-11.
 //  Copyright (c) 2013年 ELVIS zhou. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface TXLViewController : UIViewController
+@interface NSString (EZ)
+
+-(NSString*)trim;
+
+-(BOOL)isEmpty;
 
 @end

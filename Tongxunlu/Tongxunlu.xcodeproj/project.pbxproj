@@ -27,7 +27,6 @@
 		837DC71317676BB000C7B0BE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC71017676BB000C7B0BE /* Default.png */; };
 		837DC71417676BB000C7B0BE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC71117676BB000C7B0BE /* Default@2x.png */; };
 		837DC72817676DC400C7B0BE /* EZRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC71817676DC400C7B0BE /* EZRequest.m */; };
-		837DC72917676DC400C7B0BE /* TXLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC71C17676DC400C7B0BE /* TXLViewController.m */; };
 		837DC72A17676DC400C7B0BE /* TXLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC71F17676DC400C7B0BE /* TXLAppDelegate.m */; };
 		837DC72B17676DC400C7B0BE /* AccountEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC72217676DC400C7B0BE /* AccountEntity.m */; };
 		837DC72C17676DC400C7B0BE /* EZEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC72417676DC400C7B0BE /* EZEntity.m */; };
@@ -44,6 +43,78 @@
 		837DC75517676DFD00C7B0BE /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC74517676DFD00C7B0BE /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		837DC75617676DFD00C7B0BE /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC74817676DFD00C7B0BE /* MBProgressHUD.m */; };
 		837DC75717676DFD00C7B0BE /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC74B17676DFD00C7B0BE /* TPKeyboardAvoidingScrollView.m */; };
+		837DC75A1767704B00C7B0BE /* EZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC7591767704B00C7B0BE /* EZNavigationController.m */; };
+		837DC75D1767706500C7B0BE /* EZRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC75C1767706500C7B0BE /* EZRootViewController.m */; };
+		837DC764176771BA00C7B0BE /* EZTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC763176771BA00C7B0BE /* EZTabbarController.m */; };
+		837DC7711767720300C7B0BE /* EZTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC7701767720300C7B0BE /* EZTabbar.m */; };
+		837DC7741767721300C7B0BE /* EZTabbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC7731767721300C7B0BE /* EZTabbarItem.m */; };
+		837DC778176773CB00C7B0BE /* UIView+EZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC777176773CB00C7B0BE /* UIView+EZ.m */; };
+		837DC77D1767786D00C7B0BE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837DC77C1767786C00C7B0BE /* QuartzCore.framework */; };
+		837DC780176778F500C7B0BE /* NSString+EZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC77F176778F500C7B0BE /* NSString+EZ.m */; };
+		837DC781176779F000C7B0BE /* CurledViewBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC77A1767740400C7B0BE /* CurledViewBase.m */; };
+		837DC78517677A3800C7B0BE /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC78417677A3800C7B0BE /* IndexViewController.m */; };
+		837DC78917677E1600C7B0BE /* TabBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC78717677E1600C7B0BE /* TabBar.png */; };
+		837DC78A17677E1600C7B0BE /* TabBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC78817677E1600C7B0BE /* TabBar@2x.png */; };
+		837DC79F17677F9500C7B0BE /* TabButtonBgImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC78B17677F9500C7B0BE /* TabButtonBgImage.png */; };
+		837DC7A017677F9500C7B0BE /* TabButtonBgImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC78C17677F9500C7B0BE /* TabButtonBgImage@2x.png */; };
+		837DC7A117677F9500C7B0BE /* TabCenterNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC78D17677F9500C7B0BE /* TabCenterNormal.png */; };
+		837DC7A217677F9500C7B0BE /* TabCenterNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC78E17677F9500C7B0BE /* TabCenterNormal@2x.png */; };
+		837DC7A317677F9500C7B0BE /* TabCenterSelect.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC78F17677F9500C7B0BE /* TabCenterSelect.png */; };
+		837DC7A417677F9500C7B0BE /* TabCenterSelect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC79017677F9500C7B0BE /* TabCenterSelect@2x.png */; };
+		837DC7A517677F9500C7B0BE /* TabContactNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC79117677F9500C7B0BE /* TabContactNormal.png */; };
+		837DC7A617677F9500C7B0BE /* TabContactNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC79217677F9500C7B0BE /* TabContactNormal@2x.png */; };
+		837DC7A717677F9500C7B0BE /* TabContactSelect.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC79317677F9500C7B0BE /* TabContactSelect.png */; };
+		837DC7A817677F9500C7B0BE /* TabContactSelect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC79417677F9500C7B0BE /* TabContactSelect@2x.png */; };
+		837DC7A917677F9500C7B0BE /* TabKeyboardDialNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC79517677F9500C7B0BE /* TabKeyboardDialNormal.png */; };
+		837DC7AA17677F9500C7B0BE /* TabKeyboardDialNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC79617677F9500C7B0BE /* TabKeyboardDialNormal@2x.png */; };
+		837DC7AB17677F9500C7B0BE /* TabKeyboardDownSelect.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC79717677F9500C7B0BE /* TabKeyboardDownSelect.png */; };
+		837DC7AC17677F9500C7B0BE /* TabKeyboardDownSelect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC79817677F9500C7B0BE /* TabKeyboardDownSelect@2x.png */; };
+		837DC7AD17677F9500C7B0BE /* TabKeyboardUpSelect.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC79917677F9500C7B0BE /* TabKeyboardUpSelect.png */; };
+		837DC7AE17677F9500C7B0BE /* TabKeyboardUpSelect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC79A17677F9500C7B0BE /* TabKeyboardUpSelect@2x.png */; };
+		837DC7AF17677F9500C7B0BE /* TabMessageNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC79B17677F9500C7B0BE /* TabMessageNormal.png */; };
+		837DC7B017677F9500C7B0BE /* TabMessageNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC79C17677F9500C7B0BE /* TabMessageNormal@2x.png */; };
+		837DC7B117677F9500C7B0BE /* TabMessageSelect.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC79D17677F9500C7B0BE /* TabMessageSelect.png */; };
+		837DC7B217677F9500C7B0BE /* TabMessageSelect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC79E17677F9500C7B0BE /* TabMessageSelect@2x.png */; };
+		837DC7B51767819800C7B0BE /* NavBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7B31767819800C7B0BE /* NavBar.png */; };
+		837DC7B61767819800C7B0BE /* NavBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7B41767819800C7B0BE /* NavBar@2x.png */; };
+		837DC7BD1767821300C7B0BE /* EZNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC7BC1767821200C7B0BE /* EZNavigationBar.m */; };
+		837DC7C01767935400C7B0BE /* UIButton+EZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC7BF1767935400C7B0BE /* UIButton+EZ.m */; };
+		837DC7C51767940500C7B0BE /* NavBackNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7C11767940500C7B0BE /* NavBackNormal.png */; };
+		837DC7C61767940500C7B0BE /* NavBackNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7C21767940500C7B0BE /* NavBackNormal@2x.png */; };
+		837DC7C71767940500C7B0BE /* NavBackPress.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7C31767940500C7B0BE /* NavBackPress.png */; };
+		837DC7C81767940500C7B0BE /* NavBackPress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7C41767940500C7B0BE /* NavBackPress@2x.png */; };
+		837DC7CF1767942C00C7B0BE /* NavItemDisable.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7C91767942C00C7B0BE /* NavItemDisable.png */; };
+		837DC7D01767942C00C7B0BE /* NavItemDisable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7CA1767942C00C7B0BE /* NavItemDisable@2x.png */; };
+		837DC7D11767942C00C7B0BE /* NavItemNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7CB1767942C00C7B0BE /* NavItemNormal.png */; };
+		837DC7D21767942C00C7B0BE /* NavItemNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7CC1767942C00C7B0BE /* NavItemNormal@2x.png */; };
+		837DC7D31767942C00C7B0BE /* NavItemPress.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7CD1767942C00C7B0BE /* NavItemPress.png */; };
+		837DC7D41767942C00C7B0BE /* NavItemPress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7CE1767942C00C7B0BE /* NavItemPress@2x.png */; };
+		837DC7DC1767972B00C7B0BE /* CallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC7DB1767972B00C7B0BE /* CallViewController.m */; };
+		837DC7DF1767980500C7B0BE /* bg_call.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7DD1767980500C7B0BE /* bg_call.png */; };
+		837DC7E01767980500C7B0BE /* bg_call@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7DE1767980500C7B0BE /* bg_call@2x.png */; };
+		837DC7F417679D7E00C7B0BE /* DialNumber48@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7E117679D7C00C7B0BE /* DialNumber48@2x.png */; };
+		837DC7F517679D7E00C7B0BE /* DialNumber49.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7E217679D7C00C7B0BE /* DialNumber49.png */; };
+		837DC7F617679D7E00C7B0BE /* DialNumber49@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7E317679D7C00C7B0BE /* DialNumber49@2x.png */; };
+		837DC7F717679D7E00C7B0BE /* DialNumber50.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7E417679D7D00C7B0BE /* DialNumber50.png */; };
+		837DC7F817679D7E00C7B0BE /* DialNumber50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7E517679D7D00C7B0BE /* DialNumber50@2x.png */; };
+		837DC7F917679D7E00C7B0BE /* DialNumber51.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7E617679D7D00C7B0BE /* DialNumber51.png */; };
+		837DC7FA17679D7E00C7B0BE /* DialNumber51@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7E717679D7D00C7B0BE /* DialNumber51@2x.png */; };
+		837DC7FB17679D7E00C7B0BE /* DialNumber52.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7E817679D7D00C7B0BE /* DialNumber52.png */; };
+		837DC7FC17679D7E00C7B0BE /* DialNumber52@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7E917679D7D00C7B0BE /* DialNumber52@2x.png */; };
+		837DC7FD17679D7E00C7B0BE /* DialNumber53.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7EA17679D7D00C7B0BE /* DialNumber53.png */; };
+		837DC7FE17679D7E00C7B0BE /* DialNumber53@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7EB17679D7D00C7B0BE /* DialNumber53@2x.png */; };
+		837DC7FF17679D7E00C7B0BE /* DialNumber54.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7EC17679D7D00C7B0BE /* DialNumber54.png */; };
+		837DC80017679D7E00C7B0BE /* DialNumber54@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7ED17679D7E00C7B0BE /* DialNumber54@2x.png */; };
+		837DC80117679D7E00C7B0BE /* DialNumber55.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7EE17679D7E00C7B0BE /* DialNumber55.png */; };
+		837DC80217679D7E00C7B0BE /* DialNumber55@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7EF17679D7E00C7B0BE /* DialNumber55@2x.png */; };
+		837DC80317679D7E00C7B0BE /* DialNumber56.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7F017679D7E00C7B0BE /* DialNumber56.png */; };
+		837DC80417679D7E00C7B0BE /* DialNumber56@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7F117679D7E00C7B0BE /* DialNumber56@2x.png */; };
+		837DC80517679D7E00C7B0BE /* DialNumber57.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7F217679D7E00C7B0BE /* DialNumber57.png */; };
+		837DC80617679D7E00C7B0BE /* DialNumber57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC7F317679D7E00C7B0BE /* DialNumber57@2x.png */; };
+		837DC80B17679F2E00C7B0BE /* KeyboardBgNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC80717679F2E00C7B0BE /* KeyboardBgNormal.png */; };
+		837DC80C17679F2E00C7B0BE /* KeyboardBgNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC80817679F2E00C7B0BE /* KeyboardBgNormal@2x.png */; };
+		837DC80D17679F2E00C7B0BE /* KeyboardBgPress.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC80917679F2E00C7B0BE /* KeyboardBgPress.png */; };
+		837DC80E17679F2E00C7B0BE /* KeyboardBgPress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC80A17679F2E00C7B0BE /* KeyboardBgPress@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,8 +142,6 @@
 		837DC71117676BB000C7B0BE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		837DC71717676DC400C7B0BE /* EZRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZRequest.h; sourceTree = "<group>"; };
 		837DC71817676DC400C7B0BE /* EZRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZRequest.m; sourceTree = "<group>"; };
-		837DC71B17676DC400C7B0BE /* TXLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXLViewController.h; sourceTree = "<group>"; };
-		837DC71C17676DC400C7B0BE /* TXLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXLViewController.m; sourceTree = "<group>"; };
 		837DC71E17676DC400C7B0BE /* TXLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXLAppDelegate.h; sourceTree = "<group>"; };
 		837DC71F17676DC400C7B0BE /* TXLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXLAppDelegate.m; sourceTree = "<group>"; };
 		837DC72117676DC400C7B0BE /* AccountEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountEntity.h; sourceTree = "<group>"; };
@@ -106,6 +175,91 @@
 		837DC74817676DFD00C7B0BE /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		837DC74A17676DFD00C7B0BE /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
 		837DC74B17676DFD00C7B0BE /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		837DC7581767704B00C7B0BE /* EZNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZNavigationController.h; sourceTree = "<group>"; };
+		837DC7591767704B00C7B0BE /* EZNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZNavigationController.m; sourceTree = "<group>"; };
+		837DC75B1767706500C7B0BE /* EZRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZRootViewController.h; sourceTree = "<group>"; };
+		837DC75C1767706500C7B0BE /* EZRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZRootViewController.m; sourceTree = "<group>"; };
+		837DC762176771BA00C7B0BE /* EZTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZTabbarController.h; sourceTree = "<group>"; };
+		837DC763176771BA00C7B0BE /* EZTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZTabbarController.m; sourceTree = "<group>"; };
+		837DC76F1767720300C7B0BE /* EZTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZTabbar.h; sourceTree = "<group>"; };
+		837DC7701767720300C7B0BE /* EZTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZTabbar.m; sourceTree = "<group>"; };
+		837DC7721767721300C7B0BE /* EZTabbarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZTabbarItem.h; sourceTree = "<group>"; };
+		837DC7731767721300C7B0BE /* EZTabbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZTabbarItem.m; sourceTree = "<group>"; };
+		837DC776176773CB00C7B0BE /* UIView+EZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EZ.h"; sourceTree = "<group>"; };
+		837DC777176773CB00C7B0BE /* UIView+EZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EZ.m"; sourceTree = "<group>"; };
+		837DC7791767740300C7B0BE /* CurledViewBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurledViewBase.h; sourceTree = "<group>"; };
+		837DC77A1767740400C7B0BE /* CurledViewBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurledViewBase.m; sourceTree = "<group>"; };
+		837DC77B1767757900C7B0BE /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		837DC77C1767786C00C7B0BE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		837DC77E176778F500C7B0BE /* NSString+EZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EZ.h"; sourceTree = "<group>"; };
+		837DC77F176778F500C7B0BE /* NSString+EZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EZ.m"; sourceTree = "<group>"; };
+		837DC78317677A3800C7B0BE /* IndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexViewController.h; sourceTree = "<group>"; };
+		837DC78417677A3800C7B0BE /* IndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexViewController.m; sourceTree = "<group>"; };
+		837DC78717677E1600C7B0BE /* TabBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabBar.png; sourceTree = "<group>"; };
+		837DC78817677E1600C7B0BE /* TabBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar@2x.png"; sourceTree = "<group>"; };
+		837DC78B17677F9500C7B0BE /* TabButtonBgImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabButtonBgImage.png; sourceTree = "<group>"; };
+		837DC78C17677F9500C7B0BE /* TabButtonBgImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabButtonBgImage@2x.png"; sourceTree = "<group>"; };
+		837DC78D17677F9500C7B0BE /* TabCenterNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabCenterNormal.png; sourceTree = "<group>"; };
+		837DC78E17677F9500C7B0BE /* TabCenterNormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabCenterNormal@2x.png"; sourceTree = "<group>"; };
+		837DC78F17677F9500C7B0BE /* TabCenterSelect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabCenterSelect.png; sourceTree = "<group>"; };
+		837DC79017677F9500C7B0BE /* TabCenterSelect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabCenterSelect@2x.png"; sourceTree = "<group>"; };
+		837DC79117677F9500C7B0BE /* TabContactNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabContactNormal.png; sourceTree = "<group>"; };
+		837DC79217677F9500C7B0BE /* TabContactNormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabContactNormal@2x.png"; sourceTree = "<group>"; };
+		837DC79317677F9500C7B0BE /* TabContactSelect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabContactSelect.png; sourceTree = "<group>"; };
+		837DC79417677F9500C7B0BE /* TabContactSelect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabContactSelect@2x.png"; sourceTree = "<group>"; };
+		837DC79517677F9500C7B0BE /* TabKeyboardDialNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabKeyboardDialNormal.png; sourceTree = "<group>"; };
+		837DC79617677F9500C7B0BE /* TabKeyboardDialNormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabKeyboardDialNormal@2x.png"; sourceTree = "<group>"; };
+		837DC79717677F9500C7B0BE /* TabKeyboardDownSelect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabKeyboardDownSelect.png; sourceTree = "<group>"; };
+		837DC79817677F9500C7B0BE /* TabKeyboardDownSelect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabKeyboardDownSelect@2x.png"; sourceTree = "<group>"; };
+		837DC79917677F9500C7B0BE /* TabKeyboardUpSelect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabKeyboardUpSelect.png; sourceTree = "<group>"; };
+		837DC79A17677F9500C7B0BE /* TabKeyboardUpSelect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabKeyboardUpSelect@2x.png"; sourceTree = "<group>"; };
+		837DC79B17677F9500C7B0BE /* TabMessageNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabMessageNormal.png; sourceTree = "<group>"; };
+		837DC79C17677F9500C7B0BE /* TabMessageNormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabMessageNormal@2x.png"; sourceTree = "<group>"; };
+		837DC79D17677F9500C7B0BE /* TabMessageSelect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabMessageSelect.png; sourceTree = "<group>"; };
+		837DC79E17677F9500C7B0BE /* TabMessageSelect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabMessageSelect@2x.png"; sourceTree = "<group>"; };
+		837DC7B31767819800C7B0BE /* NavBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBar.png; sourceTree = "<group>"; };
+		837DC7B41767819800C7B0BE /* NavBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavBar@2x.png"; sourceTree = "<group>"; };
+		837DC7BB1767821200C7B0BE /* EZNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZNavigationBar.h; sourceTree = "<group>"; };
+		837DC7BC1767821200C7B0BE /* EZNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZNavigationBar.m; sourceTree = "<group>"; };
+		837DC7BE1767935300C7B0BE /* UIButton+EZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EZ.h"; sourceTree = "<group>"; };
+		837DC7BF1767935400C7B0BE /* UIButton+EZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EZ.m"; sourceTree = "<group>"; };
+		837DC7C11767940500C7B0BE /* NavBackNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBackNormal.png; sourceTree = "<group>"; };
+		837DC7C21767940500C7B0BE /* NavBackNormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavBackNormal@2x.png"; sourceTree = "<group>"; };
+		837DC7C31767940500C7B0BE /* NavBackPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBackPress.png; sourceTree = "<group>"; };
+		837DC7C41767940500C7B0BE /* NavBackPress@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavBackPress@2x.png"; sourceTree = "<group>"; };
+		837DC7C91767942C00C7B0BE /* NavItemDisable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavItemDisable.png; sourceTree = "<group>"; };
+		837DC7CA1767942C00C7B0BE /* NavItemDisable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavItemDisable@2x.png"; sourceTree = "<group>"; };
+		837DC7CB1767942C00C7B0BE /* NavItemNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavItemNormal.png; sourceTree = "<group>"; };
+		837DC7CC1767942C00C7B0BE /* NavItemNormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavItemNormal@2x.png"; sourceTree = "<group>"; };
+		837DC7CD1767942C00C7B0BE /* NavItemPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavItemPress.png; sourceTree = "<group>"; };
+		837DC7CE1767942C00C7B0BE /* NavItemPress@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavItemPress@2x.png"; sourceTree = "<group>"; };
+		837DC7DA1767972B00C7B0BE /* CallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallViewController.h; sourceTree = "<group>"; };
+		837DC7DB1767972B00C7B0BE /* CallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallViewController.m; sourceTree = "<group>"; };
+		837DC7DD1767980500C7B0BE /* bg_call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_call.png; sourceTree = "<group>"; };
+		837DC7DE1767980500C7B0BE /* bg_call@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_call@2x.png"; sourceTree = "<group>"; };
+		837DC7E117679D7C00C7B0BE /* DialNumber48@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DialNumber48@2x.png"; sourceTree = "<group>"; };
+		837DC7E217679D7C00C7B0BE /* DialNumber49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DialNumber49.png; sourceTree = "<group>"; };
+		837DC7E317679D7C00C7B0BE /* DialNumber49@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DialNumber49@2x.png"; sourceTree = "<group>"; };
+		837DC7E417679D7D00C7B0BE /* DialNumber50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DialNumber50.png; sourceTree = "<group>"; };
+		837DC7E517679D7D00C7B0BE /* DialNumber50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DialNumber50@2x.png"; sourceTree = "<group>"; };
+		837DC7E617679D7D00C7B0BE /* DialNumber51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DialNumber51.png; sourceTree = "<group>"; };
+		837DC7E717679D7D00C7B0BE /* DialNumber51@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DialNumber51@2x.png"; sourceTree = "<group>"; };
+		837DC7E817679D7D00C7B0BE /* DialNumber52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DialNumber52.png; sourceTree = "<group>"; };
+		837DC7E917679D7D00C7B0BE /* DialNumber52@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DialNumber52@2x.png"; sourceTree = "<group>"; };
+		837DC7EA17679D7D00C7B0BE /* DialNumber53.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DialNumber53.png; sourceTree = "<group>"; };
+		837DC7EB17679D7D00C7B0BE /* DialNumber53@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DialNumber53@2x.png"; sourceTree = "<group>"; };
+		837DC7EC17679D7D00C7B0BE /* DialNumber54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DialNumber54.png; sourceTree = "<group>"; };
+		837DC7ED17679D7E00C7B0BE /* DialNumber54@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DialNumber54@2x.png"; sourceTree = "<group>"; };
+		837DC7EE17679D7E00C7B0BE /* DialNumber55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DialNumber55.png; sourceTree = "<group>"; };
+		837DC7EF17679D7E00C7B0BE /* DialNumber55@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DialNumber55@2x.png"; sourceTree = "<group>"; };
+		837DC7F017679D7E00C7B0BE /* DialNumber56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DialNumber56.png; sourceTree = "<group>"; };
+		837DC7F117679D7E00C7B0BE /* DialNumber56@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DialNumber56@2x.png"; sourceTree = "<group>"; };
+		837DC7F217679D7E00C7B0BE /* DialNumber57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DialNumber57.png; sourceTree = "<group>"; };
+		837DC7F317679D7E00C7B0BE /* DialNumber57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DialNumber57@2x.png"; sourceTree = "<group>"; };
+		837DC80717679F2E00C7B0BE /* KeyboardBgNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KeyboardBgNormal.png; sourceTree = "<group>"; };
+		837DC80817679F2E00C7B0BE /* KeyboardBgNormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KeyboardBgNormal@2x.png"; sourceTree = "<group>"; };
+		837DC80917679F2E00C7B0BE /* KeyboardBgPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KeyboardBgPress.png; sourceTree = "<group>"; };
+		837DC80A17679F2E00C7B0BE /* KeyboardBgPress@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KeyboardBgPress@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +267,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837DC77D1767786D00C7B0BE /* QuartzCore.framework in Frameworks */,
 				837DC6F917672EB400C7B0BE /* SystemConfiguration.framework in Frameworks */,
 				837DC6F717672EAA00C7B0BE /* MobileCoreServices.framework in Frameworks */,
 				837DC6971767161900C7B0BE /* UIKit.framework in Frameworks */,
@@ -144,6 +299,7 @@
 		837DC6951767161900C7B0BE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				837DC77C1767786C00C7B0BE /* QuartzCore.framework */,
 				837DC6F817672EB400C7B0BE /* SystemConfiguration.framework */,
 				837DC6F617672EAA00C7B0BE /* MobileCoreServices.framework */,
 				837DC6961767161900C7B0BE /* UIKit.framework */,
@@ -178,6 +334,7 @@
 		837DC6FA176767E900C7B0BE /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				837DC78617677E1600C7B0BE /* images */,
 				837DC70E17676BB000C7B0BE /* splash */,
 				837DC6FB176767E900C7B0BE /* icons */,
 			);
@@ -225,8 +382,12 @@
 		837DC71617676DC400C7B0BE /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				837DC7791767740300C7B0BE /* CurledViewBase.h */,
+				837DC77A1767740400C7B0BE /* CurledViewBase.m */,
+				837DC775176773CB00C7B0BE /* Extensions */,
 				837DC71717676DC400C7B0BE /* EZRequest.h */,
 				837DC71817676DC400C7B0BE /* EZRequest.m */,
+				837DC77B1767757900C7B0BE /* Constant.h */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -234,6 +395,9 @@
 		837DC71917676DC400C7B0BE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				837DC7D91767970D00C7B0BE /* CallController */,
+				837DC78217677A1F00C7B0BE /* Index */,
+				837DC761176771BA00C7B0BE /* TabbarController */,
 				837DC71A17676DC400C7B0BE /* Base */,
 			);
 			path = Controller;
@@ -242,8 +406,10 @@
 		837DC71A17676DC400C7B0BE /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				837DC71B17676DC400C7B0BE /* TXLViewController.h */,
-				837DC71C17676DC400C7B0BE /* TXLViewController.m */,
+				837DC7581767704B00C7B0BE /* EZNavigationController.h */,
+				837DC7591767704B00C7B0BE /* EZNavigationController.m */,
+				837DC75B1767706500C7B0BE /* EZRootViewController.h */,
+				837DC75C1767706500C7B0BE /* EZRootViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -273,6 +439,8 @@
 		837DC72717676DC400C7B0BE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				837DC7B7176781C700C7B0BE /* NavigationBar */,
+				837DC765176771EE00C7B0BE /* Tabbar */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -341,6 +509,132 @@
 			path = TPKeyboard;
 			sourceTree = "<group>";
 		};
+		837DC761176771BA00C7B0BE /* TabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				837DC762176771BA00C7B0BE /* EZTabbarController.h */,
+				837DC763176771BA00C7B0BE /* EZTabbarController.m */,
+			);
+			path = TabbarController;
+			sourceTree = "<group>";
+		};
+		837DC765176771EE00C7B0BE /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				837DC76F1767720300C7B0BE /* EZTabbar.h */,
+				837DC7701767720300C7B0BE /* EZTabbar.m */,
+				837DC7721767721300C7B0BE /* EZTabbarItem.h */,
+				837DC7731767721300C7B0BE /* EZTabbarItem.m */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		837DC775176773CB00C7B0BE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				837DC776176773CB00C7B0BE /* UIView+EZ.h */,
+				837DC777176773CB00C7B0BE /* UIView+EZ.m */,
+				837DC77E176778F500C7B0BE /* NSString+EZ.h */,
+				837DC77F176778F500C7B0BE /* NSString+EZ.m */,
+				837DC7BE1767935300C7B0BE /* UIButton+EZ.h */,
+				837DC7BF1767935400C7B0BE /* UIButton+EZ.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		837DC78217677A1F00C7B0BE /* Index */ = {
+			isa = PBXGroup;
+			children = (
+				837DC78317677A3800C7B0BE /* IndexViewController.h */,
+				837DC78417677A3800C7B0BE /* IndexViewController.m */,
+			);
+			path = Index;
+			sourceTree = "<group>";
+		};
+		837DC78617677E1600C7B0BE /* images */ = {
+			isa = PBXGroup;
+			children = (
+				837DC80717679F2E00C7B0BE /* KeyboardBgNormal.png */,
+				837DC80817679F2E00C7B0BE /* KeyboardBgNormal@2x.png */,
+				837DC80917679F2E00C7B0BE /* KeyboardBgPress.png */,
+				837DC80A17679F2E00C7B0BE /* KeyboardBgPress@2x.png */,
+				837DC7E117679D7C00C7B0BE /* DialNumber48@2x.png */,
+				837DC7E217679D7C00C7B0BE /* DialNumber49.png */,
+				837DC7E317679D7C00C7B0BE /* DialNumber49@2x.png */,
+				837DC7E417679D7D00C7B0BE /* DialNumber50.png */,
+				837DC7E517679D7D00C7B0BE /* DialNumber50@2x.png */,
+				837DC7E617679D7D00C7B0BE /* DialNumber51.png */,
+				837DC7E717679D7D00C7B0BE /* DialNumber51@2x.png */,
+				837DC7E817679D7D00C7B0BE /* DialNumber52.png */,
+				837DC7E917679D7D00C7B0BE /* DialNumber52@2x.png */,
+				837DC7EA17679D7D00C7B0BE /* DialNumber53.png */,
+				837DC7EB17679D7D00C7B0BE /* DialNumber53@2x.png */,
+				837DC7EC17679D7D00C7B0BE /* DialNumber54.png */,
+				837DC7ED17679D7E00C7B0BE /* DialNumber54@2x.png */,
+				837DC7EE17679D7E00C7B0BE /* DialNumber55.png */,
+				837DC7EF17679D7E00C7B0BE /* DialNumber55@2x.png */,
+				837DC7F017679D7E00C7B0BE /* DialNumber56.png */,
+				837DC7F117679D7E00C7B0BE /* DialNumber56@2x.png */,
+				837DC7F217679D7E00C7B0BE /* DialNumber57.png */,
+				837DC7F317679D7E00C7B0BE /* DialNumber57@2x.png */,
+				837DC7DD1767980500C7B0BE /* bg_call.png */,
+				837DC7DE1767980500C7B0BE /* bg_call@2x.png */,
+				837DC7C91767942C00C7B0BE /* NavItemDisable.png */,
+				837DC7CA1767942C00C7B0BE /* NavItemDisable@2x.png */,
+				837DC7CB1767942C00C7B0BE /* NavItemNormal.png */,
+				837DC7CC1767942C00C7B0BE /* NavItemNormal@2x.png */,
+				837DC7CD1767942C00C7B0BE /* NavItemPress.png */,
+				837DC7CE1767942C00C7B0BE /* NavItemPress@2x.png */,
+				837DC7C11767940500C7B0BE /* NavBackNormal.png */,
+				837DC7C21767940500C7B0BE /* NavBackNormal@2x.png */,
+				837DC7C31767940500C7B0BE /* NavBackPress.png */,
+				837DC7C41767940500C7B0BE /* NavBackPress@2x.png */,
+				837DC7B31767819800C7B0BE /* NavBar.png */,
+				837DC7B41767819800C7B0BE /* NavBar@2x.png */,
+				837DC78717677E1600C7B0BE /* TabBar.png */,
+				837DC78817677E1600C7B0BE /* TabBar@2x.png */,
+				837DC78B17677F9500C7B0BE /* TabButtonBgImage.png */,
+				837DC78C17677F9500C7B0BE /* TabButtonBgImage@2x.png */,
+				837DC78D17677F9500C7B0BE /* TabCenterNormal.png */,
+				837DC78E17677F9500C7B0BE /* TabCenterNormal@2x.png */,
+				837DC78F17677F9500C7B0BE /* TabCenterSelect.png */,
+				837DC79017677F9500C7B0BE /* TabCenterSelect@2x.png */,
+				837DC79117677F9500C7B0BE /* TabContactNormal.png */,
+				837DC79217677F9500C7B0BE /* TabContactNormal@2x.png */,
+				837DC79317677F9500C7B0BE /* TabContactSelect.png */,
+				837DC79417677F9500C7B0BE /* TabContactSelect@2x.png */,
+				837DC79517677F9500C7B0BE /* TabKeyboardDialNormal.png */,
+				837DC79617677F9500C7B0BE /* TabKeyboardDialNormal@2x.png */,
+				837DC79717677F9500C7B0BE /* TabKeyboardDownSelect.png */,
+				837DC79817677F9500C7B0BE /* TabKeyboardDownSelect@2x.png */,
+				837DC79917677F9500C7B0BE /* TabKeyboardUpSelect.png */,
+				837DC79A17677F9500C7B0BE /* TabKeyboardUpSelect@2x.png */,
+				837DC79B17677F9500C7B0BE /* TabMessageNormal.png */,
+				837DC79C17677F9500C7B0BE /* TabMessageNormal@2x.png */,
+				837DC79D17677F9500C7B0BE /* TabMessageSelect.png */,
+				837DC79E17677F9500C7B0BE /* TabMessageSelect@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		837DC7B7176781C700C7B0BE /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				837DC7BB1767821200C7B0BE /* EZNavigationBar.h */,
+				837DC7BC1767821200C7B0BE /* EZNavigationBar.m */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		837DC7D91767970D00C7B0BE /* CallController */ = {
+			isa = PBXGroup;
+			children = (
+				837DC7DA1767972B00C7B0BE /* CallViewController.h */,
+				837DC7DB1767972B00C7B0BE /* CallViewController.m */,
+			);
+			path = CallController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -406,6 +700,65 @@
 				837DC71217676BB000C7B0BE /* Default-568h@2x.png in Resources */,
 				837DC71317676BB000C7B0BE /* Default.png in Resources */,
 				837DC71417676BB000C7B0BE /* Default@2x.png in Resources */,
+				837DC78917677E1600C7B0BE /* TabBar.png in Resources */,
+				837DC78A17677E1600C7B0BE /* TabBar@2x.png in Resources */,
+				837DC79F17677F9500C7B0BE /* TabButtonBgImage.png in Resources */,
+				837DC7A017677F9500C7B0BE /* TabButtonBgImage@2x.png in Resources */,
+				837DC7A117677F9500C7B0BE /* TabCenterNormal.png in Resources */,
+				837DC7A217677F9500C7B0BE /* TabCenterNormal@2x.png in Resources */,
+				837DC7A317677F9500C7B0BE /* TabCenterSelect.png in Resources */,
+				837DC7A417677F9500C7B0BE /* TabCenterSelect@2x.png in Resources */,
+				837DC7A517677F9500C7B0BE /* TabContactNormal.png in Resources */,
+				837DC7A617677F9500C7B0BE /* TabContactNormal@2x.png in Resources */,
+				837DC7A717677F9500C7B0BE /* TabContactSelect.png in Resources */,
+				837DC7A817677F9500C7B0BE /* TabContactSelect@2x.png in Resources */,
+				837DC7A917677F9500C7B0BE /* TabKeyboardDialNormal.png in Resources */,
+				837DC7AA17677F9500C7B0BE /* TabKeyboardDialNormal@2x.png in Resources */,
+				837DC7AB17677F9500C7B0BE /* TabKeyboardDownSelect.png in Resources */,
+				837DC7AC17677F9500C7B0BE /* TabKeyboardDownSelect@2x.png in Resources */,
+				837DC7AD17677F9500C7B0BE /* TabKeyboardUpSelect.png in Resources */,
+				837DC7AE17677F9500C7B0BE /* TabKeyboardUpSelect@2x.png in Resources */,
+				837DC7AF17677F9500C7B0BE /* TabMessageNormal.png in Resources */,
+				837DC7B017677F9500C7B0BE /* TabMessageNormal@2x.png in Resources */,
+				837DC7B117677F9500C7B0BE /* TabMessageSelect.png in Resources */,
+				837DC7B217677F9500C7B0BE /* TabMessageSelect@2x.png in Resources */,
+				837DC7B51767819800C7B0BE /* NavBar.png in Resources */,
+				837DC7B61767819800C7B0BE /* NavBar@2x.png in Resources */,
+				837DC7C51767940500C7B0BE /* NavBackNormal.png in Resources */,
+				837DC7C61767940500C7B0BE /* NavBackNormal@2x.png in Resources */,
+				837DC7C71767940500C7B0BE /* NavBackPress.png in Resources */,
+				837DC7C81767940500C7B0BE /* NavBackPress@2x.png in Resources */,
+				837DC7CF1767942C00C7B0BE /* NavItemDisable.png in Resources */,
+				837DC7D01767942C00C7B0BE /* NavItemDisable@2x.png in Resources */,
+				837DC7D11767942C00C7B0BE /* NavItemNormal.png in Resources */,
+				837DC7D21767942C00C7B0BE /* NavItemNormal@2x.png in Resources */,
+				837DC7D31767942C00C7B0BE /* NavItemPress.png in Resources */,
+				837DC7D41767942C00C7B0BE /* NavItemPress@2x.png in Resources */,
+				837DC7DF1767980500C7B0BE /* bg_call.png in Resources */,
+				837DC7E01767980500C7B0BE /* bg_call@2x.png in Resources */,
+				837DC7F417679D7E00C7B0BE /* DialNumber48@2x.png in Resources */,
+				837DC7F517679D7E00C7B0BE /* DialNumber49.png in Resources */,
+				837DC7F617679D7E00C7B0BE /* DialNumber49@2x.png in Resources */,
+				837DC7F717679D7E00C7B0BE /* DialNumber50.png in Resources */,
+				837DC7F817679D7E00C7B0BE /* DialNumber50@2x.png in Resources */,
+				837DC7F917679D7E00C7B0BE /* DialNumber51.png in Resources */,
+				837DC7FA17679D7E00C7B0BE /* DialNumber51@2x.png in Resources */,
+				837DC7FB17679D7E00C7B0BE /* DialNumber52.png in Resources */,
+				837DC7FC17679D7E00C7B0BE /* DialNumber52@2x.png in Resources */,
+				837DC7FD17679D7E00C7B0BE /* DialNumber53.png in Resources */,
+				837DC7FE17679D7E00C7B0BE /* DialNumber53@2x.png in Resources */,
+				837DC7FF17679D7E00C7B0BE /* DialNumber54.png in Resources */,
+				837DC80017679D7E00C7B0BE /* DialNumber54@2x.png in Resources */,
+				837DC80117679D7E00C7B0BE /* DialNumber55.png in Resources */,
+				837DC80217679D7E00C7B0BE /* DialNumber55@2x.png in Resources */,
+				837DC80317679D7E00C7B0BE /* DialNumber56.png in Resources */,
+				837DC80417679D7E00C7B0BE /* DialNumber56@2x.png in Resources */,
+				837DC80517679D7E00C7B0BE /* DialNumber57.png in Resources */,
+				837DC80617679D7E00C7B0BE /* DialNumber57@2x.png in Resources */,
+				837DC80B17679F2E00C7B0BE /* KeyboardBgNormal.png in Resources */,
+				837DC80C17679F2E00C7B0BE /* KeyboardBgNormal@2x.png in Resources */,
+				837DC80D17679F2E00C7B0BE /* KeyboardBgPress.png in Resources */,
+				837DC80E17679F2E00C7B0BE /* KeyboardBgPress@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,7 +771,6 @@
 			files = (
 				837DC6A31767161900C7B0BE /* main.m in Sources */,
 				837DC72817676DC400C7B0BE /* EZRequest.m in Sources */,
-				837DC72917676DC400C7B0BE /* TXLViewController.m in Sources */,
 				837DC72A17676DC400C7B0BE /* TXLAppDelegate.m in Sources */,
 				837DC72B17676DC400C7B0BE /* AccountEntity.m in Sources */,
 				837DC72C17676DC400C7B0BE /* EZEntity.m in Sources */,
@@ -435,6 +787,18 @@
 				837DC75517676DFD00C7B0BE /* JSONKit.m in Sources */,
 				837DC75617676DFD00C7B0BE /* MBProgressHUD.m in Sources */,
 				837DC75717676DFD00C7B0BE /* TPKeyboardAvoidingScrollView.m in Sources */,
+				837DC75A1767704B00C7B0BE /* EZNavigationController.m in Sources */,
+				837DC75D1767706500C7B0BE /* EZRootViewController.m in Sources */,
+				837DC764176771BA00C7B0BE /* EZTabbarController.m in Sources */,
+				837DC7711767720300C7B0BE /* EZTabbar.m in Sources */,
+				837DC7741767721300C7B0BE /* EZTabbarItem.m in Sources */,
+				837DC778176773CB00C7B0BE /* UIView+EZ.m in Sources */,
+				837DC780176778F500C7B0BE /* NSString+EZ.m in Sources */,
+				837DC781176779F000C7B0BE /* CurledViewBase.m in Sources */,
+				837DC78517677A3800C7B0BE /* IndexViewController.m in Sources */,
+				837DC7BD1767821300C7B0BE /* EZNavigationBar.m in Sources */,
+				837DC7C01767935400C7B0BE /* UIButton+EZ.m in Sources */,
+				837DC7DC1767972B00C7B0BE /* CallViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

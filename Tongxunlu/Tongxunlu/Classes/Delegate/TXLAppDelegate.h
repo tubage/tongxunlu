@@ -8,12 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@class TXLViewController;
-
 @interface TXLAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) TXLViewController *viewController;
+@property (strong, nonatomic) EZRootViewController *viewController;
 
 @end
