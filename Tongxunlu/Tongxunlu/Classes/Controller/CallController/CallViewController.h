@@ -13,10 +13,19 @@ typedef enum {
     CallViewHide = 1<<1
 }CallViewState;
 
+@protocol CallViewStateDelegate;
+
 @interface CallViewController : EZRootViewController
 
+@property(nonatomic,assign)id<CallViewStateDelegate>delegate;
 @property(nonatomic,assign)CallViewState callViewState;
 
 -(void)showKeyBoard;
 -(void)hideKeyBoard;
+@end
+
+@protocol CallViewStateDelegate <NSObject>
+
+-(void)callViewControllerWillHideKeyBoard;
+
 @end

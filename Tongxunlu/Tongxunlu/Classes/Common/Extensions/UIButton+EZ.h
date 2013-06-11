@@ -31,4 +31,8 @@
  */
 + (UIButton *)rightBarButtonWithImage:(UIImage*)image highlightedImage:(UIImage*)highlightedImage target:(id)target action:(SEL)action;
 
+/**
+ * keyboard button
+ */
++ (UIButton *)buttonWithImage:(UIImage*)image backgroundImage:(UIImage*)backgroundImage highlightedBackgroundImage:(UIImage*)highlightedBackgroundImage target:(id)target action:(SEL)action;
 @end

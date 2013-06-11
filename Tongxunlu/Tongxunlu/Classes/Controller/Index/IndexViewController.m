@@ -8,7 +8,7 @@
 
 #import "IndexViewController.h"
 #import "EZNavigationController.h"
-#import "CallViewController.h"
+
 
 @interface IndexViewController ()
 
@@ -133,14 +133,12 @@
             if (_callVC.callViewState == CallViewShow) {
                 [item setTitle:@"展开"];
                 [item setSelectedIcon:[UIImage imageNamed:@"TabKeyboardUpSelect"]];
-                _callVC.callViewState = CallViewHide;
                 
                 [self.callVC hideKeyBoard];
             }
             else{
                 [item setTitle:@"收起"];
                 [item setSelectedIcon:[UIImage imageNamed:@"TabKeyboardDownSelect"]];
-                _callVC.callViewState = CallViewShow;
                 
                 [self.callVC showKeyBoard];
             }
@@ -159,6 +157,15 @@
     self.preSelectTabIndex = index;
     
     return YES;
+}
+
+#pragma -mark
+#pragma -mark call view delegate
+-(void)callViewControllerWillHideKeyBoard{
+    if (self.preSelectTabIndex == 0) {
+        [_firstBarItem setTitle:@"展开"];
+        [_firstBarItem setSelectedIcon:[UIImage imageNamed:@"TabKeyboardUpSelect"]];
+    }
 }
 
 @end

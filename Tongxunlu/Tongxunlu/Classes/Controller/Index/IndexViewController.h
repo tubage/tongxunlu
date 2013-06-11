@@ -8,7 +8,8 @@
 
 #import "EZRootViewController.h"
 #import "EZTabbarController.h"
+#import "CallViewController.h"
 
-@interface IndexViewController : EZRootViewController<EZTabbarControllerDlegate>
+@interface IndexViewController : EZRootViewController<EZTabbarControllerDlegate,CallViewStateDelegate>
 
 @end

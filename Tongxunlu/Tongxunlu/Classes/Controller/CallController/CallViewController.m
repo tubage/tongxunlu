@@ -7,9 +7,11 @@
 //
 
 #import "CallViewController.h"
+#import "TXLKeyBoard.h"
 
 @interface CallViewController (){
-    UIView*     _keyBoard;
+    TXLKeyBoard*     _keyBoard;
+    UIControl*       _maskView;
 }
 
 -(void)loadKeyBoard;
@@ -49,11 +51,7 @@
 #pragma -mark keyBoard method
 -(void)loadKeyBoard{
     if (!_keyBoard) {
-        _keyBoard = [[UIView alloc]initWithFrame:CGRectMake(0, self.view.height, self.view.width, 250)];
-        UIImageView* bg = [[UIImageView alloc]initWithFrame:_keyBoard.bounds];
-        bg.image = [[UIImage imageNamed:@"KeyboardBgNormal"]stretchableImageWithLeftCapWidth:5 topCapHeight:20];
-        
-        [_keyBoard addSubview:bg];
+        _keyBoard = [[TXLKeyBoard alloc]initWithPosition:CGPointMake(0, self.view.height)];
     }
     
     if (_keyBoard.superview != self.view) {
@@ -66,14 +64,24 @@
         [self loadKeyBoard];
     }
     
+    if (!_maskView) {
+        _maskView = [[UIControl alloc]initWithFrame:self.view.bounds];
+        [_maskView addTarget:self action:@selector(willHide) forControlEvents:UIControlEventTouchUpInside];
+    }
+    
     [UIView animateWithDuration:EZ_ANIMATION_DURATION animations:^{
         _keyBoard.bottom = self.view.height;
         
         UIScrollView* scollView = (UIScrollView*)self.view;
         
         scollView.contentOffset = CGPointMake(0,_navigationBar.height);
+    } completion:^(BOOL finished) {
+        if (_maskView.superview != self.view) {
+            [self.view addSubview:_maskView];
+        }
+        [self.view bringSubviewToFront:_keyBoard];
+        self.callViewState = CallViewShow;
     }];
-    
 }
 
 -(void)hideKeyBoard{
@@ -87,8 +95,18 @@
         UIScrollView* scollView = (UIScrollView*)self.view;
         
         scollView.contentOffset = CGPointMake(0,0);
+    } completion:^(BOOL finished) {
+        [_maskView removeFromSuperview];
+        self.callViewState = CallViewHide;
     }];
+}
+
+-(void)willHide{
+    if ([self.delegate respondsToSelector:@selector(callViewControllerWillHideKeyBoard)]) {
+        [self.delegate callViewControllerWillHideKeyBoard];
+    }
     
+    [self hideKeyBoard];
 }
 
 @end

@@ -53,4 +53,18 @@
 	return barButton;
 }
 
++ (UIButton *)buttonWithImage:(UIImage*)image backgroundImage:(UIImage*)backgroundImage highlightedBackgroundImage:(UIImage*)highlightedBackgroundImage target:(id)target action:(SEL)action{
+    
+	UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+
+    [button setImage:image forState:UIControlStateNormal];
+    
+	[button setBackgroundImage:backgroundImage forState:UIControlStateNormal];
+    [button setBackgroundImage:highlightedBackgroundImage forState:UIControlStateHighlighted];
+	[button addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
+    
+	return button;
+}
+
+
 @end

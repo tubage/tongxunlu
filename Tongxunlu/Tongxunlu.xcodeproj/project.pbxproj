@@ -115,6 +115,16 @@
 		837DC80C17679F2E00C7B0BE /* KeyboardBgNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC80817679F2E00C7B0BE /* KeyboardBgNormal@2x.png */; };
 		837DC80D17679F2E00C7B0BE /* KeyboardBgPress.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC80917679F2E00C7B0BE /* KeyboardBgPress.png */; };
 		837DC80E17679F2E00C7B0BE /* KeyboardBgPress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC80A17679F2E00C7B0BE /* KeyboardBgPress@2x.png */; };
+		837DC8121767A3CF00C7B0BE /* TXLKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC8111767A3CF00C7B0BE /* TXLKeyBoard.m */; };
+		837DC8141767A6C800C7B0BE /* DialNumber48.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC8131767A6C600C7B0BE /* DialNumber48.png */; };
+		837DC81D1767AA8C00C7B0BE /* DialNumber35_53.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC8151767AA7300C7B0BE /* DialNumber35_53.png */; };
+		837DC81E1767AA8C00C7B0BE /* DialNumber35_53@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC8161767AA7500C7B0BE /* DialNumber35_53@2x.png */; };
+		837DC81F1767AA8C00C7B0BE /* DialNumber35.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC8171767AA7800C7B0BE /* DialNumber35.png */; };
+		837DC8201767AA8C00C7B0BE /* DialNumber35@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC8181767AA7B00C7B0BE /* DialNumber35@2x.png */; };
+		837DC8211767AA8C00C7B0BE /* DialNumber42_53.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC8191767AA7D00C7B0BE /* DialNumber42_53.png */; };
+		837DC8221767AA8C00C7B0BE /* DialNumber42_53@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC81A1767AA8200C7B0BE /* DialNumber42_53@2x.png */; };
+		837DC8231767AA8C00C7B0BE /* DialNumber42.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC81B1767AA8800C7B0BE /* DialNumber42.png */; };
+		837DC8241767AA8C00C7B0BE /* DialNumber42@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC81C1767AA8A00C7B0BE /* DialNumber42@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -260,6 +270,17 @@
 		837DC80817679F2E00C7B0BE /* KeyboardBgNormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KeyboardBgNormal@2x.png"; sourceTree = "<group>"; };
 		837DC80917679F2E00C7B0BE /* KeyboardBgPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KeyboardBgPress.png; sourceTree = "<group>"; };
 		837DC80A17679F2E00C7B0BE /* KeyboardBgPress@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KeyboardBgPress@2x.png"; sourceTree = "<group>"; };
+		837DC8101767A3CF00C7B0BE /* TXLKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXLKeyBoard.h; sourceTree = "<group>"; };
+		837DC8111767A3CF00C7B0BE /* TXLKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXLKeyBoard.m; sourceTree = "<group>"; };
+		837DC8131767A6C600C7B0BE /* DialNumber48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DialNumber48.png; sourceTree = "<group>"; };
+		837DC8151767AA7300C7B0BE /* DialNumber35_53.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DialNumber35_53.png; sourceTree = "<group>"; };
+		837DC8161767AA7500C7B0BE /* DialNumber35_53@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DialNumber35_53@2x.png"; sourceTree = "<group>"; };
+		837DC8171767AA7800C7B0BE /* DialNumber35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DialNumber35.png; sourceTree = "<group>"; };
+		837DC8181767AA7B00C7B0BE /* DialNumber35@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DialNumber35@2x.png"; sourceTree = "<group>"; };
+		837DC8191767AA7D00C7B0BE /* DialNumber42_53.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DialNumber42_53.png; sourceTree = "<group>"; };
+		837DC81A1767AA8200C7B0BE /* DialNumber42_53@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DialNumber42_53@2x.png"; sourceTree = "<group>"; };
+		837DC81B1767AA8800C7B0BE /* DialNumber42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DialNumber42.png; sourceTree = "<group>"; };
+		837DC81C1767AA8A00C7B0BE /* DialNumber42@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DialNumber42@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -439,6 +460,7 @@
 		837DC72717676DC400C7B0BE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				837DC80F1767A3BA00C7B0BE /* KeyBoard */,
 				837DC7B7176781C700C7B0BE /* NavigationBar */,
 				837DC765176771EE00C7B0BE /* Tabbar */,
 			);
@@ -558,6 +580,15 @@
 				837DC80817679F2E00C7B0BE /* KeyboardBgNormal@2x.png */,
 				837DC80917679F2E00C7B0BE /* KeyboardBgPress.png */,
 				837DC80A17679F2E00C7B0BE /* KeyboardBgPress@2x.png */,
+				837DC8151767AA7300C7B0BE /* DialNumber35_53.png */,
+				837DC8161767AA7500C7B0BE /* DialNumber35_53@2x.png */,
+				837DC8171767AA7800C7B0BE /* DialNumber35.png */,
+				837DC8181767AA7B00C7B0BE /* DialNumber35@2x.png */,
+				837DC8191767AA7D00C7B0BE /* DialNumber42_53.png */,
+				837DC81A1767AA8200C7B0BE /* DialNumber42_53@2x.png */,
+				837DC81B1767AA8800C7B0BE /* DialNumber42.png */,
+				837DC81C1767AA8A00C7B0BE /* DialNumber42@2x.png */,
+				837DC8131767A6C600C7B0BE /* DialNumber48.png */,
 				837DC7E117679D7C00C7B0BE /* DialNumber48@2x.png */,
 				837DC7E217679D7C00C7B0BE /* DialNumber49.png */,
 				837DC7E317679D7C00C7B0BE /* DialNumber49@2x.png */,
@@ -633,6 +664,15 @@
 				837DC7DB1767972B00C7B0BE /* CallViewController.m */,
 			);
 			path = CallController;
+			sourceTree = "<group>";
+		};
+		837DC80F1767A3BA00C7B0BE /* KeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				837DC8101767A3CF00C7B0BE /* TXLKeyBoard.h */,
+				837DC8111767A3CF00C7B0BE /* TXLKeyBoard.m */,
+			);
+			path = KeyBoard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -759,6 +799,15 @@
 				837DC80C17679F2E00C7B0BE /* KeyboardBgNormal@2x.png in Resources */,
 				837DC80D17679F2E00C7B0BE /* KeyboardBgPress.png in Resources */,
 				837DC80E17679F2E00C7B0BE /* KeyboardBgPress@2x.png in Resources */,
+				837DC8141767A6C800C7B0BE /* DialNumber48.png in Resources */,
+				837DC81D1767AA8C00C7B0BE /* DialNumber35_53.png in Resources */,
+				837DC81E1767AA8C00C7B0BE /* DialNumber35_53@2x.png in Resources */,
+				837DC81F1767AA8C00C7B0BE /* DialNumber35.png in Resources */,
+				837DC8201767AA8C00C7B0BE /* DialNumber35@2x.png in Resources */,
+				837DC8211767AA8C00C7B0BE /* DialNumber42_53.png in Resources */,
+				837DC8221767AA8C00C7B0BE /* DialNumber42_53@2x.png in Resources */,
+				837DC8231767AA8C00C7B0BE /* DialNumber42.png in Resources */,
+				837DC8241767AA8C00C7B0BE /* DialNumber42@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -799,6 +848,7 @@
 				837DC7BD1767821300C7B0BE /* EZNavigationBar.m in Sources */,
 				837DC7C01767935400C7B0BE /* UIButton+EZ.m in Sources */,
 				837DC7DC1767972B00C7B0BE /* CallViewController.m in Sources */,
+				837DC8121767A3CF00C7B0BE /* TXLKeyBoard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
