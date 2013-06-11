@@ -126,6 +126,7 @@
 		837DC8231767AA8C00C7B0BE /* DialNumber42.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC81B1767AA8800C7B0BE /* DialNumber42.png */; };
 		837DC8241767AA8C00C7B0BE /* DialNumber42@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC81C1767AA8A00C7B0BE /* DialNumber42@2x.png */; };
 		837DC8281767B12200C7B0BE /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC8271767B12200C7B0BE /* SettingViewController.m */; };
+		837DC82C1767B78500C7B0BE /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC82B1767B78500C7B0BE /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -284,6 +285,8 @@
 		837DC81C1767AA8A00C7B0BE /* DialNumber42@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DialNumber42@2x.png"; sourceTree = "<group>"; };
 		837DC8261767B12200C7B0BE /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		837DC8271767B12200C7B0BE /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		837DC82A1767B78500C7B0BE /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		837DC82B1767B78500C7B0BE /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -419,6 +422,7 @@
 		837DC71917676DC400C7B0BE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				837DC8291767B76000C7B0BE /* User */,
 				837DC8251767B10800C7B0BE /* Setting */,
 				837DC7D91767970D00C7B0BE /* CallController */,
 				837DC78217677A1F00C7B0BE /* Index */,
@@ -688,6 +692,15 @@
 			path = Setting;
 			sourceTree = "<group>";
 		};
+		837DC8291767B76000C7B0BE /* User */ = {
+			isa = PBXGroup;
+			children = (
+				837DC82A1767B78500C7B0BE /* User.h */,
+				837DC82B1767B78500C7B0BE /* User.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -863,6 +876,7 @@
 				837DC7DC1767972B00C7B0BE /* CallViewController.m in Sources */,
 				837DC8121767A3CF00C7B0BE /* TXLKeyBoard.m in Sources */,
 				837DC8281767B12200C7B0BE /* SettingViewController.m in Sources */,
+				837DC82C1767B78500C7B0BE /* User.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

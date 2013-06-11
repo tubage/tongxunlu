@@ -7,6 +7,7 @@
 //
 
 #import "SettingViewController.h"
+#import "EZNavigationController.h"
 
 @interface SettingViewController ()
 
@@ -14,18 +15,27 @@
 
 @implementation SettingViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+
+-(id)initWithDefaultFrame:(CGRect)frame{
+    self = [super initWithDefaultFrame:frame];
+    
     if (self) {
-        // Custom initialization
+        self.showNavigationBar = YES;
     }
     return self;
 }
 
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"bg_call"]];
+    
+    [self setTitle:@"个人中心"];
+    
+    UIButton* rightBtn = [UIButton barButtonWithTitle:@"设置" target:self action:@selector(setting)];
+    
+    [self setRightbarItem:rightBtn];
 	// Do any additional setup after loading the view.
 }
 
@@ -33,6 +43,12 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)setting{
+    EZRootViewController* view = [[EZRootViewController alloc]init];
+    
+    [self.ezNavigationController pushViewController:view];
 }
 
 @end
