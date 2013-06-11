@@ -19,7 +19,6 @@
     self.viewController = [[TXLViewController alloc] initWithNibName:@"TXLViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     
-    NSLog(@"eeee");
     [self.window makeKeyAndVisible];
     return YES;
 }
