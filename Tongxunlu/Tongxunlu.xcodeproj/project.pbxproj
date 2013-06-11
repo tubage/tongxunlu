@@ -29,6 +29,8 @@
 		837DC6D61767170F00C7B0BE /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC6CD1767170F00C7B0BE /* UIImageView+AFNetworking.m */; };
 		837DC6DA1767172800C7B0BE /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC6D91767172800C7B0BE /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		837DC6DE176719B400C7B0BE /* EZRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC6DD176719B400C7B0BE /* EZRequest.m */; };
+		837DC6E717671D9A00C7B0BE /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC6E317671D9A00C7B0BE /* MBProgressHUD.m */; };
+		837DC6E817671D9A00C7B0BE /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC6E617671D9A00C7B0BE /* TPKeyboardAvoidingScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,8 +73,10 @@
 		837DC6D91767172800C7B0BE /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		837DC6DC176719B400C7B0BE /* EZRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZRequest.h; sourceTree = "<group>"; };
 		837DC6DD176719B400C7B0BE /* EZRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZRequest.m; sourceTree = "<group>"; };
-		837DC6DF17671C2A00C7B0BE /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
-		837DC6E017671C2A00C7B0BE /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		837DC6E217671D9A00C7B0BE /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		837DC6E317671D9A00C7B0BE /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		837DC6E517671D9A00C7B0BE /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		837DC6E617671D9A00C7B0BE /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,8 @@
 		837DC6B91767170F00C7B0BE /* library */ = {
 			isa = PBXGroup;
 			children = (
+				837DC6E117671D9A00C7B0BE /* MBProgressHUD */,
+				837DC6E417671D9A00C7B0BE /* TPKeyboard */,
 				837DC6D71767172800C7B0BE /* JSONKit */,
 				837DC6BA1767170F00C7B0BE /* AFNetworking */,
 			);
@@ -192,12 +198,28 @@
 		837DC6DB1767186E00C7B0BE /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				837DC6DF17671C2A00C7B0BE /* TPKeyboardAvoidingScrollView.h */,
-				837DC6E017671C2A00C7B0BE /* TPKeyboardAvoidingScrollView.m */,
 				837DC6DC176719B400C7B0BE /* EZRequest.h */,
 				837DC6DD176719B400C7B0BE /* EZRequest.m */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		837DC6E117671D9A00C7B0BE /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				837DC6E217671D9A00C7B0BE /* MBProgressHUD.h */,
+				837DC6E317671D9A00C7B0BE /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		837DC6E417671D9A00C7B0BE /* TPKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				837DC6E517671D9A00C7B0BE /* TPKeyboardAvoidingScrollView.h */,
+				837DC6E617671D9A00C7B0BE /* TPKeyboardAvoidingScrollView.m */,
+			);
+			path = TPKeyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +303,8 @@
 				837DC6D61767170F00C7B0BE /* UIImageView+AFNetworking.m in Sources */,
 				837DC6DA1767172800C7B0BE /* JSONKit.m in Sources */,
 				837DC6DE176719B400C7B0BE /* EZRequest.m in Sources */,
+				837DC6E717671D9A00C7B0BE /* MBProgressHUD.m in Sources */,
+				837DC6E817671D9A00C7B0BE /* TPKeyboardAvoidingScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
