@@ -8,7 +8,7 @@
 
 #import "IndexViewController.h"
 #import "EZNavigationController.h"
-
+#import "SettingViewController.h"
 
 @interface IndexViewController ()
 
@@ -69,10 +69,7 @@
         }
             break;
         case 3:{
-            EZRootViewController*   rootVc = [[EZRootViewController alloc]initWithDefaultFrame:CGRectMake(0, 0, FULL_WIDTH, CONTENT_HEIGHT)];
-            
-            rootVc.showNavigationBar = YES;
-            [rootVc setTitle:@"设置"];
+            SettingViewController*   rootVc = [[SettingViewController alloc]initWithDefaultFrame:CGRectMake(0, 0, FULL_WIDTH, CONTENT_HEIGHT)];
             
             vcl = [[EZNavigationController alloc]initWithRootViewController:rootVc];
         }

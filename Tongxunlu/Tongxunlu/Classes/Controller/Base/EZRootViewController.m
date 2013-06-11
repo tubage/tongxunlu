@@ -40,7 +40,7 @@
         self.view.frame = self.defaultFrame;
     }
     
-    self.view.backgroundColor = [UIColor clearColor];
+    self.view.backgroundColor = [UIColor whiteColor];
     
     [self addNavigationBar];
     

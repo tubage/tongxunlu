@@ -81,7 +81,7 @@
     _leftBarButton = nil;
     if (leftBarButton) {
         _leftBarButton = leftBarButton;
-        _leftBarButton.center = CGPointMake(_leftBarButton.width/2, self.height/2);
+        _leftBarButton.center = CGPointMake(_leftBarButton.width/2+5, self.height/2);
         
         [self addSubview:_leftBarButton];
     }
@@ -93,7 +93,7 @@
     _rightBarButton = nil;
     if (rightBarButton) {
         _rightBarButton = rightBarButton;
-        _rightBarButton.center = CGPointMake(self.width - (_rightBarButton.width/2), self.height/2);
+        _rightBarButton.center = CGPointMake(self.width - (_rightBarButton.width/2)-5, self.height/2);
         [self addSubview:_rightBarButton];
         [self bringSubviewToFront:_rightBarButton];
     }

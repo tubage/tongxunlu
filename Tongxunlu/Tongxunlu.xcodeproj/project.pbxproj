@@ -125,6 +125,7 @@
 		837DC8221767AA8C00C7B0BE /* DialNumber42_53@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC81A1767AA8200C7B0BE /* DialNumber42_53@2x.png */; };
 		837DC8231767AA8C00C7B0BE /* DialNumber42.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC81B1767AA8800C7B0BE /* DialNumber42.png */; };
 		837DC8241767AA8C00C7B0BE /* DialNumber42@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837DC81C1767AA8A00C7B0BE /* DialNumber42@2x.png */; };
+		837DC8281767B12200C7B0BE /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DC8271767B12200C7B0BE /* SettingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -281,6 +282,8 @@
 		837DC81A1767AA8200C7B0BE /* DialNumber42_53@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DialNumber42_53@2x.png"; sourceTree = "<group>"; };
 		837DC81B1767AA8800C7B0BE /* DialNumber42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DialNumber42.png; sourceTree = "<group>"; };
 		837DC81C1767AA8A00C7B0BE /* DialNumber42@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DialNumber42@2x.png"; sourceTree = "<group>"; };
+		837DC8261767B12200C7B0BE /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		837DC8271767B12200C7B0BE /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -416,6 +419,7 @@
 		837DC71917676DC400C7B0BE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				837DC8251767B10800C7B0BE /* Setting */,
 				837DC7D91767970D00C7B0BE /* CallController */,
 				837DC78217677A1F00C7B0BE /* Index */,
 				837DC761176771BA00C7B0BE /* TabbarController */,
@@ -675,6 +679,15 @@
 			path = KeyBoard;
 			sourceTree = "<group>";
 		};
+		837DC8251767B10800C7B0BE /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				837DC8261767B12200C7B0BE /* SettingViewController.h */,
+				837DC8271767B12200C7B0BE /* SettingViewController.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -849,6 +862,7 @@
 				837DC7C01767935400C7B0BE /* UIButton+EZ.m in Sources */,
 				837DC7DC1767972B00C7B0BE /* CallViewController.m in Sources */,
 				837DC8121767A3CF00C7B0BE /* TXLKeyBoard.m in Sources */,
+				837DC8281767B12200C7B0BE /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

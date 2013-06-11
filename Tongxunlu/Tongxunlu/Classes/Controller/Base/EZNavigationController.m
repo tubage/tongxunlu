@@ -66,7 +66,7 @@
 #pragma mark - push view controller
 
 - (void)pushViewController:(EZRootViewController *)viewController {
-    [self pushViewController:viewController withAnimation:PageTransitionVertical];
+    [self pushViewController:viewController withAnimation:PageTransitionHorizontal];
 }
 
 - (void)pushViewController:(EZRootViewController *)viewController withAnimation:(PageTransitionType)animation {
@@ -124,7 +124,7 @@
     
     CGRect originalRect = CGRectMake(0, 0, viewController.view.width, viewController.view.height);
     
-    if (CGRectIsEmpty(self.defaultFrame)) {
+    if (CGRectIsEmpty(viewController.defaultFrame)) {
         viewController.defaultFrame = CONTENT_VIEW_FRAME;
         viewController.showNavigationBar = YES;
         

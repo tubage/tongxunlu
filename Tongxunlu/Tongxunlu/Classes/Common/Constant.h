@@ -22,7 +22,7 @@
 #define FULL_VIEW_FRAME             CGRectMake(0, 0, FULL_WIDTH, FULL_HEIGHT)
 
 /// constant values
-#define EZ_ANIMATION_DURATION       0.3
+#define EZ_ANIMATION_DURATION       0.4f
 
 ///view tagg
 #define TAG_TITLELB     -(1<<2)

@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-
 @interface EZNavigationController : EZRootViewController{
     EZRootViewController*       _rootViewController;
     EZRootViewController*       _topViewController;
